@@ -56,4 +56,4 @@ TheNewsApp to aplikacja na Androida umożliwiająca użytkownikom przeglądanie 
 ## Instalacja:
 1. Sklonuj repozytorium:
    ```bash
-   git clone https://github.com/TwojeRepozytorium/TheNewsApp.git
+   git clone https://github.com/dolek122/TheNewsApp.git
