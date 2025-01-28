@@ -14,6 +14,7 @@ Funkcje aplikacji:
 Technologie i biblioteki:
 Język: Kotlin
 Architektura: MVVM
+
 Biblioteki:
 Retrofit – pobieranie danych z API.
 Room – lokalna baza danych.
@@ -28,17 +29,22 @@ BottomNavigationView do łatwego poruszania się po aplikacji.
 
 Struktura projektu:
 Model:
+
 Article – reprezentacja artykułu.
 NewsResponse – struktura odpowiedzi API.
 Repository:
+
 NewsRepository – zarządzanie danymi (API i lokalna baza danych).
 ViewModel:
+
 NewsViewModel – logika biznesowa aplikacji.
 UI (Fragmenty):
+
 HeadlinesFragment – wyświetla najnowsze wiadomości.
 SearchFragment – umożliwia wyszukiwanie wiadomości.
 SavedNewsFragment – lista ulubionych artykułów.
 Inne:
+
 NewsAdapter – adapter do RecyclerView.
 Resource – klasa pomocnicza do obsługi stanów odpowiedzi.
 Wymagania:
