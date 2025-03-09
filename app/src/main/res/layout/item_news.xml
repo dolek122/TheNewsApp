@@ -21,7 +21,7 @@
         android:layout_marginTop="4dp"
         android:text="SOURCE"
         android:fontFamily="@font/poppins"
-        android:textColor="@color/purple"
+        android:textColor="?attr/colorOnBackground"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/articleImage" />
 
@@ -33,7 +33,7 @@
         android:ellipsize="end"
         android:maxLines="2"
         android:text="TITLE"
-        android:textColor="@color/black"
+        android:textColor="?attr/colorOnBackground"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintRight_toRightOf="parent"
@@ -49,7 +49,7 @@
         android:ellipsize="end"
         android:maxLines="2"
         android:text="DESCRIPTION"
-        android:textColor="@color/black"
+        android:textColor="?attr/colorOnBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/articleImage"
         app:layout_constraintTop_toBottomOf="@+id/articleTitle" />
@@ -62,7 +62,7 @@
         android:text="DATE TIME"
         android:textSize="11sp"
         android:layout_marginStart="8dp"
-        android:textColor="@color/black"
+        android:textColor="?attr/colorOnBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/articleDescription" />
 

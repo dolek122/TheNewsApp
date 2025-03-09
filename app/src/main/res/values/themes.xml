@@ -5,6 +5,7 @@
          <item name="colorPrimary">@color/purple</item>
          <item name="colorPrimaryVariant">@color/purple</item>
          <item name="android:statusBarColor">@color/purple</item>
+        <item name="android:textColor">@color/textColorLight</item>
     </style>
 
     <style name="Theme.TheNewsApp" parent="Base.Theme.TheNewsApp" />

@@ -11,7 +11,7 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/poppins"
         android:text="Ulubione"
-        android:textColor="@color/purple"
+        android:textColor="?attr/colorOnBackground"
         android:textSize="30sp"
         android:textStyle="bold" />
 

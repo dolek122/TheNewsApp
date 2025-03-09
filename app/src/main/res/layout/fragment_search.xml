@@ -12,7 +12,7 @@
         android:text="Wyszukaj"
         android:textSize="30sp"
         android:fontFamily="@font/poppins"
-        android:textColor="@color/purple"
+        android:textColor="?attr/colorOnBackground"
         android:textStyle="bold"
         android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
