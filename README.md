@@ -10,6 +10,9 @@ TheNewsApp to aplikacja na Androida umożliwiająca użytkownikom przeglądanie 
 - Zapisywanie ulubionych artykułów w lokalnej bazie danych (Room).
 - Obsługa paginacji i dynamicznego ładowania kolejnych stron wyników.
 - Obsługa błędów i braków połączenia internetowego.
+- Integracja z czujnikami:
+- Czujnik światła do automatycznego przełączania między trybem jasnym i ciemnym aplikacjim w zależności od warunków oświetleniowych
+- Akcelerometr do wykrywania potrząsania urządzeniem, co powoduje odświeżenie listy najnowszych wiadomości
 
 ---
 
@@ -23,6 +26,7 @@ TheNewsApp to aplikacja na Androida umożliwiająca użytkownikom przeglądanie 
   - [Navigation Component](https://developer.android.com/guide/navigation) – zarządzanie nawigacją między ekranami.
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) i [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) – zarządzanie danymi UI.
   - [Glide](https://github.com/bumptech/glide) – ładowanie i wyświetlanie obrazów.
+  - Czujniki: Obsługa czujników światła i akcelerometru w celu dostosowania aplikacji do warunków otoczenia i umożliwienia interakcji poprzez gesty.
 - **Interfejs użytkownika:**
   - RecyclerView z adapterem do dynamicznego wyświetlania artykułów.
   - BottomNavigationView do łatwego poruszania się po aplikacji.
